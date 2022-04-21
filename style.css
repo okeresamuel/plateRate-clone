@@ -1,0 +1,608 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font: 14px Helvetica, Arial, sans-serif;
+
+}
+.first_header{
+    display:flex;
+    padding:5px;
+    position:fixed;
+    Top:0px;
+    Width:100%;
+    z-index:7;
+    background-color: rgb(253, 253, 253);
+}
+.platerate{
+   margin:0px auto;
+}
+.ratetext{
+  text-align: center;
+  position:relative;
+  Left:50px;
+  bottom:4px;
+}
+.foodpic_one{
+    width:90px;
+    position: relative;
+    bottom:5px;
+}
+.freefood_label{
+    display:flex;
+    justify-content:flex-end;
+    position:relative;
+    bottom:140px;
+
+}
+#Eat_text,#Eat_texttwo{
+    color:white;
+    text-align: center;
+    position: relative;
+    bottom:150px;
+}
+#Eat_text{
+    font-size: 25px;
+    font-weight: normal;
+    margin:0px auto;
+
+}
+#Eat_texttwo{
+    font-size:5px;
+    font-weight:lighter;
+}
+.reward{
+    text-decoration: underline;
+}
+
+#Eat_texttwo{
+    font-size: 21px;
+}
+.section_one{
+    background-image: url("https://platerate.com/images/home-bg-new.png");
+    background-size:cover;
+    height:492px;
+
+}
+
+.foodplate_img{
+ display: flex;
+ justify-content:flex-end;
+ position: relative;
+ }
+.food_plate{
+    width:80px;
+
+}
+.fruit_box{
+    display:flex;
+    justify-content:space-between;
+   position:relative;
+   bottom:63px;
+
+}
+.fruit_plate{
+     width:110px;   
+}
+.bottle_img{
+    width:100px;
+ 
+}
+
+.bottom_groupimg{
+position:relative;
+bottom:148px;
+ 
+}
+.text::placeholder{
+     color: black; 
+     opacity: 10; 
+}
+.arrow_btn{
+   position: relative;
+   bottom:3px;
+    left:9px;
+    background-color:yellow;
+    padding:10px;
+    border-radius:180px;
+}
+.input_container{
+    position:relative;
+    Bottom:150px;
+    display:flex;
+    justify-content: center;
+}
+Input{
+    padding:5px;
+    border-radius:15px;
+}
+.checkboxes{
+    position:relative;
+    Bottom:140px;
+    display: flex;
+    justify-content: center;
+
+}
+input[type=checkbox] {
+accent-color:green;
+}
+.checkbox_one,.checkbox_two,.checkbox_three{
+    background-color:white;
+    margin:3px;
+    padding:3px;
+    border-radius:17px;
+    font-size: 12px;
+}
+label{
+    position: relative;
+    bottom:4px;
+}
+
+.mission_img{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    max-width: 90%;
+    margin:0px auto;
+}
+.mission_one{
+    width:95%;
+    margin:0px auto;
+
+}
+
+.mission_two{
+    width:95%;
+    margin:0px auto;
+}
+.mission_imgtext{
+    max-width:330px;
+    text-align: center;
+    font-size: small;
+    padding:px;
+}
+
+.missionlink{
+ color:green;
+ position: relative;
+ top:11px;
+ font-size:16px;
+ text-decoration:none;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+    border:solid black;
+    max-width: 49%;
+    margin:0px auto;
+    padding:7px;
+    border-radius:25px;
+    border-width:1px;
+     margin-top:35px;
+     background-color:green;
+     background-image: linear-gradient(to left, white 50%, rgba(0,0,0,0) 20%); 
+}
+
+.restaurant_tag{
+    font-size:small;
+}
+.customer_tag{
+    font-size: small;
+    color:white;
+}
+
+.phone_box,.food_box,.burger_box,.chicken_box,.phone_boxtwo,.foodset_box,.foodset_two,.flavor_matchbox{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+
+}
+.phone_img, .food_img,.burger_img,.chicken_img,.foodset_img,.flavor_match{
+    max-width:90%;
+}
+.phone_imgtwo{
+    max-width:210px;
+    position:relative;
+  right:45px;
+}
+.foodset_imgtwo{
+    margin:0px auto;
+    max-width:90%;
+}
+.bread_img{
+    max-width:29%;
+ 
+}
+.text_box{
+  max-width:310px;
+  margin:0px auto;
+}
+.numbers{
+    color:green;
+}
+.text_one{
+    color:green;
+    font-size: 20px;
+    text-align:center;
+}
+.text_onecheese{
+    margin-left:30px;
+    color:green;
+}
+.text_oneRate{
+    color:green;
+    Margin-left:32px;
+}
+.text_onetry,.text_oneearly{
+    color:green;
+    Margin-left:32px;
+}
+.text_introduce{
+    color:green;
+    margin-left:45px;
+}
+.text_two{
+    font-size: 14px;
+    margin-left:33px;
+}
+
+/*area for spacing out content opening*/
+.html{
+    scroll-behavior:smooth;
+}
+.section_two{
+    padding-top:35px;
+ padding-bottom:40px;  
+}
+.section_three{
+    background-color:rgba(102, 102, 102, 0.055);
+ padding-top:50px;
+ padding-bottom:40px;
+}
+.section_four{
+    padding-top:10px;
+ padding-bottom:40px;  
+}
+.section_five{
+    padding-top:40px;
+    padding-bottom:40px;
+      background-color:rgba(102, 102, 102, 0.075);
+}
+.section_six{
+    padding-top:40px;
+ padding-bottom:40px;
+}
+.section_seven{
+padding-top:40px;
+padding-bottom:40px;
+background-color:rgba(102, 102, 102, 0.075);
+}
+.section_eight{
+     padding-top:40px;
+ padding-bottom:40px;
+}
+.section_nine{
+    background-color:rgba(102, 102, 102, 0.075);
+  padding-top:40px;
+ padding-bottom:40px;
+}
+ .section_ten{
+ padding-top:40px;
+ padding-bottom:45px;
+ 
+ }
+ .section_eleven{
+    padding-top:30px;
+ padding-bottom:40px;
+ position: relative;
+ top:6px;
+ background-color:rgba(102, 102, 102, 0.075);
+ Height:24vh;
+ }
+ hr{
+    height:10vh;
+ }
+.section_twelve{
+    background-color: rgba(0, 0, 0, 0.849);
+    color:aliceblue;
+}
+/*area for spacing out content closing*/
+.food_box{
+padding-top:50px;
+padding-bottom:40px;
+}
+
+.ashpic_box{
+  position: relative;
+  bottom:195px;
+  height:0px;
+
+}
+.ashpic{
+  width:60px;
+}
+@media (max-width:500px){
+.ashpic{
+  width:10%;
+}
+
+.ashpic_box{
+  position: relative;
+  bottom:138px;
+  height:0px;
+
+}
+}
+.text_oneorder{
+    color:green;
+    margin-left:25px;
+}
+.icon_box{
+    margin-left: 20px;
+}
+.iconone,.icontwo,.iconthree,.iconfour{
+    display:flex;
+}
+.delivery{
+   margin-left:6px; 
+}
+.icon_threetext,.icon_fourtext{
+    margin-left:49px;
+}
+/*style for rating section*/
+.rating_system{
+    font-weight:20px;
+    color:green;
+
+}
+.ratings{
+ max-width:310px;
+  margin:0px auto;
+
+}
+.sub_headtext{
+    font-weight:bold;
+}
+
+.texttwo{
+    color:green;
+    margin-left:45px;
+
+}
+.textthree{
+margin-left:45px;
+}
+.platerate_footimgbox{
+   text-align: center;
+
+}
+.platerate_footimg{
+    width:120px;
+}
+.heart_text{
+    Position:relative;
+    left:7px;
+    Bottom:4px;
+}
+/*social media icons styling*/
+.platerate_footicons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    position: relative;
+    top:25px;
+
+}
+
+.facebook_icon{
+
+    padding-left:3px;
+    padding-right:3px;
+    padding-bottom:3px;
+    padding-top:3px;
+    margin:1px;
+    border-radius:0%;
+}
+.twitter_icon{
+
+    background-color: black;
+    color:white;
+   padding-left:3px;
+    padding-right:3px;
+    padding-bottom:3px;
+    padding-top:3px;
+
+    border-radius:50px;
+    margin:4px;
+}
+.linked_in{
+
+    padding-left:3px;
+    padding-right:3px;
+    padding-bottom:3px;
+    padding-top:3px;
+
+    border-radius:20px;
+    margin-bottom:4px;
+}
+.pinter_interest{
+
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:6px;
+    padding-top:6px;
+
+    Position:relative;
+    Bottom:3px;
+}
+.instagram_icon{
+
+    padding-left:6px;
+    padding-right:6px;
+    padding-bottom:6px;
+    padding-top:6px;
+    background-color: black;
+    color:white;
+    border-radius:13px;
+    margin:4px;
+    Position:relative;
+    Bottom:2px;
+}
+
+.footer_text{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    position:relative;
+    top:40px;
+    max-width:300px;
+    margin:0px auto;
+}
+
+nav{
+display:flex;
+flex-direction: row;
+justify-content:space-around;
+
+position:fixed;
+Bottom:0px;
+Width:100%;
+Z-index:7;
+background-color:white;
+}
+
+.login{
+    padding:10px 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:rgb(4, 161, 4);
+    color:white;
+    border-radius: 5px;
+    Text-align:center;
+    position: relative;
+    Top:10px;
+    Left:5px;
+     bottom:9px;
+    cursor: pointer;
+    Border:none;
+    outline:none;
+    -Webkit-tap-highlight-color:transparent;
+}
+
+.rewards,.about{
+    Position:relative;
+    Top:16px;
+    Left:20px;
+}
+
+.search{
+    Position:relative;
+    Top:16px;
+    Left:10px;
+}
+
+.home{
+    Position:relative;
+    Top:16px;
+    Left:10px;
+    border:solid white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:60px;
+    border-width:1px;
+}
+.home_text{
+    Position:relative;
+    top:3px;
+}
+/* media query*/
+@media (min-width:850px){
+#Eat_text{
+   font-size:50px;
+}
+#Eat_texttwo{
+    font-size: 30px;
+}
+
+.bottom_groupimg{
+position:relative;
+bottom:201px;
+}
+
+.section_three{
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+}
+.text_box{
+    margin:0px;
+    align-self: center;
+}
+.text_two{
+    font-size:19px;
+}
+
+.section_four{
+ display: flex;
+flex-direction: row-reverse;
+justify-content:space-evenly;
+}
+.section_five{
+  display: flex;
+flex-direction: row;
+justify-content:space-evenly; 
+padding-top:50px;
+padding-bottom:40px; 
+}
+.ashpic{
+    width:65px;
+    justify-content: baseline;
+    position: relative;
+    bottom:55px;
+
+}
+.ashpic_box{
+display:flex;
+justify-content:left;
+
+}
+.section_six{
+    display: flex;
+flex-direction: row-reverse;
+justify-content:space-evenly;
+}
+.phone_img, .food_img,.burger_img,.chicken_img,.foodset_img,.foodset_imgtwo,.flavor_match{
+  max-width:80%;
+}
+.section_seven{
+    display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+}
+.section_eight{
+  display: flex;
+flex-direction: row-reverse;
+justify-content:space-evenly;
+}  
+.section_nine{
+     display:flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+
+.section_ten{
+     display: flex;
+flex-direction: row-reverse;
+justify-content:space-evenly;
+}
+}
+@media (min-width:500px){
+.tags{
+max-width: 190px;
+padding:10px;
+}
+}
